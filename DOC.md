@@ -20,7 +20,9 @@ be somehow associated with your Google account, think about it twice before usin
 [This is the procedure](#google-api-key-creation) to create your Google API key.
 
 An API key, also known as an application programming interface key, is a unique identifier used to 
-authenticate and authorize access to an API (application programming interface). Here, creating your  own API key will allow you to obtain information and make queries to the Google Custom API in the    same way that you would with a basic search engine.
+authenticate and authorize access to an API (application programming interface). Here, creating your
+own API key will allow you to obtain information and make queries to the Google Custom API in the 
+same way that you would with a basic search engine.
 
 The last options are explained, as the others, in the (i) icon. The Active Search checkbox 
 correspond to your willingness of using active OSINT techniques. Finally, the Search Depth specify 
@@ -59,17 +61,20 @@ The first step is to click [on this link ](https://console.cloud.google.com/), w
 to the Google Console platform. If you are already connected to your account you might see this:
 
 If you are not, it will suggest that you either create one or log in.
-The very first step is to create a project. Whatever its name, the project allows you to use various APIs and manage your keys and permissions, among other things.
+The very first step is to create a project. Whatever its name, the project allows you to use 
+various APIs and manage your keys and permissions, among other things.
 
 For this example, we will create a project called OnlinePrivacyPilotTest, as shown here:
 
 Once this is done, click on the "Credentials" on the left. It will allow you to create a key by 
 clicking on the "API key" field. 
 
-Now that you have your created key, you need to enable an API called "Custom Search API". This screenshot shows the activation process:
+Now that you have your created key, you need to enable an API called "Custom Search API". This 
+screenshot shows the activation process:
 
-Congratulations, you are almost done with the creation of your key, the only step that remains is to
-click on "Credentials" on the left and then copy the value of your key to be paste directly into the tool.
+Congratulations, you are almost done with the creation of your key, the only step that remains is 
+to click on "Credentials" on the left and then copy the value of your key to be paste directly into 
+the tool.
 
 It is important to mention that behind this project you've created, there's a query limit that can 
 be used with the Custom Search API service. You'll be able to generate just 100 queries in 24 hours.
