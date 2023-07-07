@@ -33,34 +33,44 @@ exposed, the API key has been blurred, you will have to put your own.
 
 Using these parameters, when you click the "Launch Search" button, it will test the validity of your 
 key, taking into account the parameters you specify.
-If you are told that your key is not valid, that means either that you have made an error while 
+If you are told that your key is not valid, that means either that you have made an error while
+entering it, or that you reach the maximum number of queries that you can make per day 
+(which is 100).
 The result we get in our example is as follows:
 
 ![example_result_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/030ff038-7ace-450d-9809-cd86af94d8ce)
 
 
-You can see that the number of results is limited to twenty, but it is still a huge set. If we want 
-for instance to filter it, we can add filters, either initially or by clicking on a node. If we 
-relaunch a search with "Instagram" and "LinkedIn"  we will have:
+You can see that the number of nodes is limited to twenty, but it is still a huge set. 
+It could contain information that are irrelevant for us.
+If we want for instance to orient the search, we can add filters, either initially or by clicking
+on a node. If we relaunch a search with "Instagram" and "LinkedIn"  we will have:
 
 ![example_result_with_filters_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/1100ec73-739f-41de-8f87-9b2d5fcda366)
 
+In this screenshot you can see that red nodes appear, these are the nodes that have moved from
+the previous search, either because their position in the graph has changed or because they are new.
 On the other hand if we find that his Instagram account is not relevant we can click on the
 corresponding node, this appears then:
 
 ![example_delete_data_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/42618e1e-5411-4e6d-86f0-f8004a659b18)
 
-Since we are able to find the procedure of deletion for Instagram with JustDeleteMe, a button will appear
-that allows to remove the associated data. It will be redirected to the web page of registration for
+Let us a bit describe what we have here:
+The type indicates what type of footprint we found, it can be URL, name, username, company, 
+location,...
+The method is how we get the footprint, with a google search for example it is "google" but it 
+can be with information retrieval from Instagram for example, in this case it is: "instagram_scrapper".
+Then, since we are able to find the procedure of deletion for Instagram with JustDeleteMe, a button appears
+and allows to remove the associated data. It will be redirected to the web page of registration for
 Instagram and afterward the deletion page. 
 
-Regarding our relevance choice, it will appear as a
+Regarding our relevance choice, if we press "Make as irrelevant" it appears as a
 filter in the filters list, accessible and usable for potential further searches.
 In our case, with these parameters:
 
 ![example_filters_input_search2_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/ca0ff94a-333e-481f-81e0-67f3b57cadd0)
 
-The nodes containing his footprints linked with Instagram do not appear anymore:
+The nodes containing footprints linked with Instagram do not appear anymore:
 
 ![example_macron_disappear_instagram](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/8ecff7af-e335-4da4-848f-39a43c82571f)
 
@@ -70,7 +80,7 @@ The nodes containing his footprints linked with Instagram do not appear anymore:
 
 This section will show you how to create an API key that you can use to make requests to the tool.
 The first step is to click [on this link ](https://console.cloud.google.com/), which will take you 
-to the Google Console platform. If you are already connected to your account you might see this
+to the Google Console platform. If you are already connected to your account you might see this:
 
 ![google_console_first_view](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/3ca201d8-cc49-4461-b80a-33ddd737340f)
 
@@ -87,8 +97,8 @@ clicking on the "API key" field.
 
 ![google_console_creation_api_key](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/223b2644-ed6c-457b-8524-5c4a4df8bc04)
 
-Now that you have your created key, you need to enable an API called "Custom Search API". These 
-screenshots shows the activation process:
+Now that you have your created key, you need to enable an API called "Custom Search API". 
+Here is the activation process:
 
 ![google_console_activation_API_step1](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/37cc47c3-acf5-4551-a002-af21f41dd10a)
 
@@ -101,8 +111,8 @@ the tool. (It has been blurred on this screenshot).
 ![google_console_copy_API_key](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/83447138-05f3-4f91-959a-e0269b56d058)
 
 
-It is important to mention that behind this project you've created, there's a query limit that can 
-be used with the Custom Search API service. You'll be able to generate just 100 queries in 24 hours.
+It is important to mention that behind this project you have created, there is a query limit that can 
+be used with the Custom Search API service. You are able to generate just 100 queries in 24 hours.
 You can monitor your quota in the Google Console, here is an example of an exceed number of query:
 
 ![google_console_exceed_quotas](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/38833949-3f7c-486b-811b-6f25bfc4ec15)
