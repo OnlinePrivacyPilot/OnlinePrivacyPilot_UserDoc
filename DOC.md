@@ -60,23 +60,39 @@ This section will show you how to create an API key that you can use to make req
 The first step is to click [on this link ](https://console.cloud.google.com/), which will take you 
 to the Google Console platform. If you are already connected to your account you might see this:
 
+![google_console_first_view](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/84771dc2-d7ef-4f59-b414-99163572f97a)
+
 If you are not, it will suggest that you either create one or log in.
 The very first step is to create a project. Whatever its name, the project allows you to use 
 various APIs and manage your keys and permissions, among other things.
 
 For this example, we will create a project called OnlinePrivacyPilotTest, as shown here:
 
+![google_console_creation_project](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/5b2280ec-f0a0-449b-b75e-42621e3d836c)
+
 Once this is done, click on the "Credentials" on the left. It will allow you to create a key by 
 clicking on the "API key" field. 
 
-Now that you have your created key, you need to enable an API called "Custom Search API". This 
-screenshot shows the activation process:
+![google_console_creation_api_key](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/223b2644-ed6c-457b-8524-5c4a4df8bc04)
+
+Now that you have your created key, you need to enable an API called "Custom Search API". Thess 
+screenshots shows the activation process:
+
+![google_console_activation_API_step1](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/37cc47c3-acf5-4551-a002-af21f41dd10a)
+
+![google_console_activation_API_step2](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/900bd7e2-6a96-4263-8e42-530e37bbc187)
 
 Congratulations, you are almost done with the creation of your key, the only step that remains is 
 to click on "Credentials" on the left and then copy the value of your key to be paste directly into 
-the tool.
+the tool. (It has been blurred on this screenshot).
+
+![google_console_copy_API_key](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/4ff06790-d8e2-47c7-8ca1-5efd8192182c)
 
 It is important to mention that behind this project you've created, there's a query limit that can 
 be used with the Custom Search API service. You'll be able to generate just 100 queries in 24 hours.
 You can monitor your quota in the Google Console, here is an example of an exceed number of query:
+
+![google_console_exceed_quotas](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/147a5e8e-fa79-4cb6-91a9-138bc190f3e0)
+
+
 
