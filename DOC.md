@@ -17,7 +17,7 @@ specify the options we want to use.
 
 You should enter your API key before moving forward, in this case all the requests you will do will 
 be somehow associated with your Google account, think about it twice before using the tool.
-[This is the procedure](#google-api-key-creation) to create your Google API key.
+[This is the procedure](#google-custom-api-creation) to create your Google API key.
 
 An API key, also known as an application programming interface key, is a unique identifier used to 
 authenticate and authorize access to an API (application programming interface). Here, creating your
@@ -76,7 +76,7 @@ The nodes containing footprints linked with Instagram do not appear anymore:
 
 
 
-###### Google Custom API creation {#google-api-key-creation}
+###### Google Custom API creation
 
 This section will show you how to create an API key that you can use to make requests to the tool.
 The first step is to click [on this link ](https://console.cloud.google.com/), which will take you 
