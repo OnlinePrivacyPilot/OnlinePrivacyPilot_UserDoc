@@ -29,29 +29,41 @@ correspond to your willingness of using active OSINT techniques. Finally, the Se
 how deep you want the software to investigate. The screenshot below illustrates what we have 
 exposed, the API key has been blurred, you will have to put your own.
 
-![example_search_form_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/59505383/71872f59-105b-43d0-9048-9141c8c2b15e)
+![example_search_form_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/69c97b59-3cc2-4851-a487-3eec21353083)
 
 Using these parameters, when you click the "Launch Search" button, it will test the validity of your 
 key, taking into account the parameters you specify.
 If you are told that your key is not valid, that means either that you have made an error while 
 The result we get in our example is as follows:
 
-![example_result_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/59505383/bbbb5cdd-aa69-4c87-83cb-faaf382e300e)
+![example_result_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/030ff038-7ace-450d-9809-cd86af94d8ce)
+
 
 You can see that the number of results is limited to twenty, but it is still a huge set. If we want 
 for instance to filter it, we can add filters, either initially or by clicking on a node. If we 
 relaunch a search with "Instagram" and "LinkedIn"  we will have:
 
-![example_result_with_filters_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/59505383/01502cc5-d2fd-4679-a08b-c17f767ecdd9)
+![example_result_with_filters_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/1100ec73-739f-41de-8f87-9b2d5fcda366)
 
-![example_delete_data_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/59505383/3a37ec8c-9579-4378-b157-a8e18d075be5)
+On the other hand if we find that his Instagram account is not relevant we can click on the
+corresponding node, this appears then:
 
-If we click on the node linked to his Instagram account and since we are able to find the procedure 
-of deletion for Instagram with JustDeleteMe, a button will appear that allows to remove the 
-associated data. It will be redirected to the web page of registration for Instagram and afterward 
-the deletion page. As mentioned before, it is also possible to indicate if the targeted footprint is 
-relevant, i.e., can be somehow linked to our person. It will appear as a filter in the filters list, 
-accessible and usable for potential further searches.
+![example_delete_data_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/42618e1e-5411-4e6d-86f0-f8004a659b18)
+
+Since we are able to find the procedure of deletion for Instagram with JustDeleteMe, a button will appear
+that allows to remove the associated data. It will be redirected to the web page of registration for
+Instagram and afterward the deletion page. 
+
+Regarding our relevance choice, it will appear as a
+filter in the filters list, accessible and usable for potential further searches.
+In our case, with these parameters:
+
+![example_filters_input_search2_macron](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/ca0ff94a-333e-481f-81e0-67f3b57cadd0)
+
+The nodes containing his footprints linked with Instagram do not appear anymore:
+
+![example_macron_disappear_instagram](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/8ecff7af-e335-4da4-848f-39a43c82571f)
+
 
 
 ###### Google Custom API creation {#google-api-key-creation}
@@ -75,7 +87,7 @@ clicking on the "API key" field.
 
 ![google_console_creation_api_key](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/223b2644-ed6c-457b-8524-5c4a4df8bc04)
 
-Now that you have your created key, you need to enable an API called "Custom Search API". Thess 
+Now that you have your created key, you need to enable an API called "Custom Search API". These 
 screenshots shows the activation process:
 
 ![google_console_activation_API_step1](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/37cc47c3-acf5-4551-a002-af21f41dd10a)
