@@ -61,7 +61,7 @@ location,...
 The method is how we get the footprint, with a google search for example it is "google" but it 
 can be with information retrieval from Instagram for example, in this case it is: "instagram_scrapper".
 Then, since we are able to find the procedure of deletion for Instagram with JustDeleteMe, a button appears
-and allows to remove the associated data. It will be redirected to the web page of registration for
+and allows to remove the associated data. It redirects to the web page of registration for
 Instagram and afterward the deletion page. 
 
 Regarding our relevance choice, if we press "Make as irrelevant" it appears as a
@@ -73,6 +73,9 @@ In our case, with these parameters:
 The nodes containing footprints linked with Instagram do not appear anymore:
 
 ![example_macron_disappear_instagram](https://github.com/OnlinePrivacyPilot/OnlinePrivacyPilot_UserDoc/assets/100564746/8ecff7af-e335-4da4-848f-39a43c82571f)
+
+We hope this example helped you understand OnlinePrivacyPilot a bit better.
+Feel free to make pull requests or report issues on Github so we can fix and improve the tool.
 
 
 
